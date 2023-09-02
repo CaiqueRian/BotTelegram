@@ -41,6 +41,20 @@ class TelegramBot:
 5 - Everton
 6 - Gion"""
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PARTE QUE GILBERTO TEM QUE ALTERAR
     if mensagem == "1":
       return f""" ficar no chat {os.linesep} Alguma duvida ? (s/n)"""
     elif mensagem == "2":
