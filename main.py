@@ -34,12 +34,12 @@ class TelegramBot:
   def criar_resposta(self, mensagem):
     if mensagem == "/Oi":
       return f"""Olá funcionarios da Rede Forte Fibra, essa é a agenda do dia! 
-1 - Beta
-2 - Naiara
-3 - Caique
-4 - Tiago
-5 - Everton
-6 - Gion"""
+1 - Leandro
+2 - Carla
+3 - Fabio
+4 - Marcio
+5 - Daniele
+6 - Laura"""
 
 
 
@@ -58,18 +58,18 @@ class TelegramBot:
     if mensagem == "1":
       return f""" ficar no chat {os.linesep} Alguma duvida ? (s/n)"""
     elif mensagem == "2":
-      return f""" ficar no chat {os.linesep} Alguma duvida ? (s/n)"""
+      return f""" ficar no chat e fazer prospecção de clientes{os.linesep} Alguma duvida ? (s/n)"""
     elif mensagem == "3":
-      return f""" Ficar no chat e criar bot {os.linesep} Alguma duvida ? (s/n)"""
+      return f""" Ficar no chat e criar ChatBot {os.linesep} Alguma duvida ? (s/n)"""
     elif mensagem == "4":
-      return f""" Cuidar do trabalho externo em cosme de farias {os.linesep} Alguma duvida ? (s/n)"""
+      return f""" Cuidar do trabalho externo em cabula {os.linesep} Alguma duvida ? (s/n)"""
     elif mensagem == "5":
-      return f""" Cuidar do trabalho externo em canabrava {os.linesep} Alguma duvida ? (s/n)"""
+      return f""" Cuidar do trabalho externo em barra {os.linesep} Alguma duvida ? (s/n)"""
     elif mensagem == "6":
-      return f""" EDITADO PELO GITHUB: o técnico tiago irá cuidar do trabalho externo em cosme de farias {os.linesep} Alguma duvida ? (s/n)"""
+      return f""" auxiliar o técnico fabio a cuidar do trabalho externo no cabula{os.linesep} Alguma duvida ? (s/n)"""
 
     if mensagem.lower() in ("s", "sim"):
-      return "Confirme com Gilberto pelo telegram: 996075026 ou Whatsapp: 981424680"
+      return "Confirme com pedro pelo telegram: ... ou Whatsapp: ..."
     elif mensagem.lower() in ("n", "nao"):
       return "Tudo certo então, um bom dia e um ótimo trabalho"
     else:
